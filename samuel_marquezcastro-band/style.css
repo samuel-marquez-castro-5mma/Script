@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 24px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+
+nav {
+
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+
+    /* list items komen naast elkaar te staan */
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    /* anchor elementen kunnen zo grootte krijgen */
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: rgb(165, 51, 51);
+    color: goldenrod;
+}
+
+header nav {
+    background-color: goldenrod;
+}
+
+#img1 {
+    text-align: center;
+    width: auto;
+    
+}
+
+header h1 {
+    color: rgb(165, 51, 51);
+    padding: 3%;
+    background-image: url("images/natuu.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+header {
+    margin-bottom: 10px;
+    font-size: larger;
+
+}
+
+body {
+    background-color: cornsilk;
+}
+
+
+
+#inleiding h2 {
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#biografie h2 {
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title1 {
+    text-align: center;
+}
+
+
+
+#albums {
+    color: goldenrod;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#albums table {
+    color: black;
+    font-size: larger
+}
+
+
+#tabel1 {
+    font-size: x-large;
+}
+
+#kolom1 {
+    background-color: rgb(165, 51, 51);
+}
+
+#kolom2 {
+    background-color: rgb(221, 105, 105);
+}
+
+#kolom3 {
+    background-color: rgb(221, 105, 105);
+}
+
+#kolom4 {
+    background-color: rgb(221, 105, 105);
+}
+
+#kolom2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#kolom3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#kolom4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#prijzen h2 {
+    color: goldenrod;
+}
+
+#prijzen {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+footer {
+    font-weight: bold;
+    text-align: end;
+    padding: 10px;
+}
+
