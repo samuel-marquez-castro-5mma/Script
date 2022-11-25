@@ -35,7 +35,8 @@ h2 {
 
 #flexbox div{
     border: 2px darkred solid;
-    padding: 10vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
     flex-basis: 50%;
    
 }
@@ -47,18 +48,33 @@ background-color: brown;
 .right {
 background-color:brown
 }
-ul {
+
+    ul {
     list-style: none;
-  
+    padding-top: 10%;
+    
+}
+
+    a { 
+    text-decoration: none;
+    color: ivory;
+    padding: 1px;
+    background-color: dimgray
+    }
+
+a:hover {
+color: dimgray;
+background-color: ivory;
 
 }
 
+
 footer  {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: ivory;
     background-color: maroon;
     padding: 1vw;
     border: 2px darkred solid;
     text-align: center;
+    
 
 }
