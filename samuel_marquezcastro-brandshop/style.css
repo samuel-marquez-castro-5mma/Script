@@ -36,23 +36,28 @@ header nav a {
 }
 
 header nav a:hover {
-    text-decoration-line: underline;
+    text-decoration-line: none;
+    background-color: white;
+    color: black;
+    
 }
 
 header nav li {
     display: inline-block;
+    
 }
 
 
 header i {
-    font-size: 25px;
+    font-size: 20px;
     color: white;
+     
     
 }
 
 header input {
-    width:  7rem;
-    padding: 0,5rem;
+    width:  8rem;
+    padding-right: 4rem;
 
 
 }
@@ -62,6 +67,7 @@ header input {
 .flex-container {
     display: flex;
     justify-content: space-between;
+    
 }
 .align-center {
     align-items: center;
