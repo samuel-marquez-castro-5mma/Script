@@ -72,3 +72,12 @@ header input {
 .align-center {
     align-items: center;
 }
+
+.videoframe {
+    overflow: hidden;
+    max-height: 50vh;
+  }
+  
+  video {
+    width: 100%;
+  }
