@@ -13,6 +13,7 @@ body {
     background-color: rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
+    font-weight: 600;
 }
 
 
@@ -22,23 +23,47 @@ a {
 }
 /* hoofding */
 header{
-    background-color: black;        
+    background-color:rgb(34, 34, 34);        
     padding: 20px;
 }
+
+
 
 header img {
     width: 3rem;
-   
+
 }
+
+    #ht {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        border-bottom: 2px solid white;
+        color: white;
+        font-size: smaller;
+       
+
+
+
+    }
+
+
+#nav {
+    position: fixed;
+    top: 0;
+    }
+
 header nav a {
     text-decoration: none;
     padding: 20px;
+
 }
 
 header nav a:hover {
-    text-decoration-line: none;
-    background-color: white;
-    color: black;
+   
+    text-decoration-line: underline;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 3px;
     
 }
 
@@ -75,7 +100,7 @@ header input {
 
 .videoframe {
     overflow: hidden;
-    max-height: 50vh;
+    max-height: 100vh;
   }
   
   video {
