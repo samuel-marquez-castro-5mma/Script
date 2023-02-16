@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
@@ -21,37 +21,36 @@ a {
 
     color: white
 }
+
 /* hoofding */
-header{
-    background-color:rgb(34, 34, 34);        
-    padding: 20px;
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
 }
 
+header .menu {
+    padding: 20px;
 
+}
 
 header img {
     width: 3rem;
 
 }
 
-    #ht {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 10px;
-        border-bottom: 2px solid white;
-        color: white;
-        font-size: smaller;
-       
-
-
-
-    }
-
+.header-top {
+    padding: 10px;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: smaller;
+    text-align: center;
+}
 
 #nav {
     position: fixed;
     top: 0;
-    }
+}
 
 header nav a {
     text-decoration: none;
@@ -60,28 +59,28 @@ header nav a {
 }
 
 header nav a:hover {
-   
+
     text-decoration-line: underline;
     text-underline-offset: 20px;
     text-decoration-thickness: 3px;
-    
 }
 
 header nav li {
     display: inline-block;
-    
+
 }
 
 
 header i {
     font-size: 20px;
     color: white;
-     
-    
+    padding: 1rem;
+
+
 }
 
 header input {
-    width:  8rem;
+    width: 8rem;
     padding-right: 4rem;
 
 
@@ -92,8 +91,20 @@ header input {
 .flex-container {
     display: flex;
     justify-content: space-between;
-    
+
 }
+
+.flex-container2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+
 .align-center {
     align-items: center;
 }
@@ -101,8 +112,23 @@ header input {
 .videoframe {
     overflow: hidden;
     max-height: 100vh;
-  }
-  
-  video {
+}
+
+video {
     width: 100%;
-  }
+}
+#featured {
+margin: 5%;
+
+
+}
+#featured h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 5%;
+
+}
+
+#featured img {
+    width: 100%;
+}
