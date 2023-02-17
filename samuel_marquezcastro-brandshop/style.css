@@ -25,6 +25,7 @@ a {
 /* hoofding */
 header {
     position: fixed;
+    z-index: 2;
     width: 100%;
     background-color: rgb(34, 34, 34);
 }
@@ -117,11 +118,13 @@ header input {
 video {
     width: 100%;
 }
+
 #featured {
-margin: 5%;
+    margin: 5%;
 
 
 }
+
 #featured h2 {
     text-align: center;
     font-size: 2rem;
@@ -131,4 +134,45 @@ margin: 5%;
 
 #featured img {
     width: 100%;
+}
+
+#men {
+    margin: 5%;
+    
+
+}
+
+#men h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 5%;
+
+}
+
+#men img {
+    width: 100%;
+}
+#men p {
+    color: gray;
+
+}
+#woman {
+    margin: 5%;
+    
+
+}
+
+#woman h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 5%;
+
+}
+
+#woman img {
+    width: 100%;
+}
+#woman p {
+    color: gray;
+
 }
