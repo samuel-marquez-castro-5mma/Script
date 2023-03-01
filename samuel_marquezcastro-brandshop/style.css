@@ -18,7 +18,7 @@ body {
 
 
 a {
-
+    text-decoration: none;
     color: white
 }
 
@@ -113,11 +113,34 @@ header input {
 .videoframe {
     overflow: hidden;
     max-height: 100vh;
+    
+}
+
+.videoframe .shopnow {
+    z-index: 1;
+    position: absolute;
+    bottom: 10%;
+    left: 43%;
+    
 }
 
 video {
     width: 100%;
 }
+
+
+.button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: black;
+    padding: 15px 40px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+    
 
 #featured {
     margin: 5%;
@@ -175,4 +198,36 @@ video {
 #woman p {
     color: gray;
 
+}
+
+#cta {
+    padding: 5%;
+}
+ 
+#cta .bgc-highlights {
+    background-color: black;
+}
+
+
+#cta .bgd-joinus {
+    background-image: url("static/img/cta.avif");
+    background-size: cover;
+    background-position: right;
+}
+
+#cta p {
+    margin: 5%;
+    color: white
+}
+#cta h4 {
+    color: 
+    white;
+}
+.btn {
+    background-color: white;
+    margin:2rem;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+    color: black;
+    text-align: center;
 }
