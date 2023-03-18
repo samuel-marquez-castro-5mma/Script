@@ -53,13 +53,24 @@ background-color:brown
     list-style: none;
     padding-top: 10%;
     
+
+    
 }
+
+ul li a {
+    padding: 5px;
+    margin: 2%;
+    border-style: groove;
+}
+
 
     a { 
     text-decoration: none;
     color: ivory;
-    padding: 1px;
-    background-color: dimgray
+    background-color: dimgray;
+    display: inline-flex;
+
+
     }
 
 a:hover {
@@ -77,4 +88,10 @@ footer  {
     text-align: center;
     
 
+}
+
+footer p a {
+
+    padding: 5px;
+    border-style: groove;
 }
