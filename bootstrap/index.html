@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Bootstrap Landing Page</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">My Landing Page</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#gallery">Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Header -->
+	<header>
+		<div class="jumbotron">
+			<h1 class="display-4">Welcome to My Landing Page</h1>
+			<p class="lead">This is a simple landing page built with Bootstrap 4.</p>
+			<hr class="my-4">
+			<p>It features a navigation menu, an about section, an image gallery, and a contact form.</p>
+			<a class="btn btn-primary btn-lg" href="#about" role="button">Learn more</a>
+		</div>
+	</header>
+
+	<!-- About Section -->
+	<section id="about" class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h2>About Me</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend nulla sit amet magna maximus, vel elementum metus tincidunt. Donec convallis, dolor eu varius venenatis, nibh nibh malesuada lorem, quis tristique enim nisl eget nulla. In sit amet lectus eget nisl ultricies dignissim. Integer dictum sapien quis tortor lobortis, vel lobortis sapien lobortis. Sed vel eros in nibh blandit aliquet. Nullam id odio et tellus vestibulum blandit. </p>
+			</div>
+			<div class="col-md-6">
+				<img src="https://via.placeholder.com/400x300" alt="About Me" class="img-fluid">
+			</div>
+		</div>
+	</section>
+
+	<!-- Gallery Section -->
+	<section id="gallery" class="container-fluid">
+		<h2>Image Gallery</h2>
+		<div class="row">
+			<div class="col-md-4">
+				<img src="https://via.placeholder.com/400x300" alt="Gallery Image 1" class="img-fluid">
+      </div>
+      <div class="col-md-4">
+      <img src="https://via.placeholder.com/400x300" alt="Gallery Image 2" class="img-fluid">
+      </div>
+      <div class="col-md-4">
+      <img src="https://via.placeholder.com/400x300" alt="Gallery Image 3" class="img-fluid">
+      </div>
+      </div>
+      </section>
+      <!-- Contact Section -->
+<section id="contact" class="container">
+	<h2>Contact Me</h2>
+	<form>
+		<div class="form-group">
+			<label for="name">Name</label>
+			<input type="text" class="form-control" id="name" required>
+		</div>
+		<div class="form-group">
+			<label for="email">Email</label>
+			<input type="email" class="form-control" id="email" required>
+		</div>
+		<div class="form-group">
+			<label for="message">Message</label>
+			<textarea class="form-control" id="message" rows="3" required></textarea>
+		</div>
+		<button type="submit" class="btn btn-primary">Send</button>
+	</form>
+</section>
+</body>
+<!-- Footer -->
+<footer class="bg-dark text-white">
+	<div class="container">
+		<p>&copy; 2023 My Landing Page</p>
+	</div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
