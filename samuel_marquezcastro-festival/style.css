@@ -19,8 +19,20 @@ body {
     color: var(--txt-01);
     font-family: "owners-wide", sans-serif;
     line-height: 1;
+   
 }
 
+.reclame {
+background-color: var();
+}
+
+
+img {
+    display: block;
+    width: 100%;
+}
+
+/* vormgeving header */
 
 header {
     background-color: var(--bgc-01);
