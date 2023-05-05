@@ -69,6 +69,9 @@ nav ul {
     margin: 10px;
   }
   
+  nav a:hover {
+    color: black;
+  }
 
   
 .logo   {
