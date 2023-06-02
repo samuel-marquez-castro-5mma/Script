@@ -40,6 +40,16 @@ header {
     grid-template-columns: repeat(3, 1fr);
 }
 
+header input#burger {
+  display: none;
+
+}
+
+  header label[for="burger"] {
+    display: none;
+
+  }
+
 header img {
    justify-self: center;
    display: inline;
@@ -239,11 +249,28 @@ footer ul li a {
 }
   #icons i {
      color: white;
-
-     display:block
-     
-     
-     
-
+    font-size: 1.5rem;
+     display:block;
+     padding: 10px;
   }
+
+@media (width <= 750px) {
+  header {
+     background-color: yellow; 
+  }
+
+  header label[for="burger"] {
+    display: block;
+  
+  }
+  header i {
+    color: red;
+    font-size: 2rem;
+  }
+
+header nav ul {
+  display: none;
+}
+
+}
 
