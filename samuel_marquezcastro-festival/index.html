@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,70 +8,78 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
     <header>
         <div>
         </div>
         <div class="logo">
             <img src="static/svg/rr geel.svg" alt="Label Festival logo">
-          </div>
-          <input type="checkbox" id="burger">
-          <label for="burger">
+        </div>
+        <input type="checkbox" id="burger">
+        <label for="burger">
             <i class="fa-solid fa-bars"></i>
-          </label>
+        </label>
         <nav>
             <ul>
                 <li>
-                <a href="">Info</a>
-                <a href="">ticket</a>
+                    <a href="index.html"><i class="fa-solid fa-house"></i></a>
+                    <a href="">Info</a>
+                    <a href="">ticket</a>
                 </li>
-        </ul>
-           
+            </ul>
+
         </nav>
-      </header>
-      
+    </header>
+
     <main>
-       
-
-
         <section class="lineup-section">
             <h2>Lineup</h2>
             <div class="grid-container">
                 <div class="artist">
-                   <a href="act.html"> <img src="static/img/Central-Cee.jpg" alt="Artist 1">
-                    <h3>Central Cee</h3></a>
+                    <a href="act.html"> <img src="static/img/Central-Cee.jpg" alt="Artist 1">
+                        <h3>Central Cee</h3>
+                    </a>
                 </div>
                 <div class="artist">
-                   <a href=""> <img src="static/img/Polo-G.jpeg" alt="Artist 2">
-                    <h3>Polo G</h3></a>
+                    <a href=""> <img src="static/img/Polo-G.jpeg" alt="Artist 2">
+                        <h3>Polo G</h3>
+                    </a>
                 </div>
                 <div class="artist">
                     <a href=""><img src="static/img/Chris-Brown.jpg" alt="Artist 3">
-                    <h3>Chris Brown</h3></a>
+                        <h3>Chris Brown</h3>
+                    </a>
                 </div>
                 <div class="artist">
                     <a href=""><img src="static/img/Billie-Eilish.jpg" alt="Artist 4">
-                    <h3>Billie Eilish</h3></a>
+                        <h3>Billie Eilish</h3>
+                    </a>
                 </div>
                 <div class="artist">
-                  <a href=""> <img src="static/img/Steve-Lacy.png" alt="Artist 5">
-                    <h3>Steve Lacy</h3></a>
+                    <a href=""> <img src="static/img/Steve-Lacy.png" alt="Artist 5">
+                        <h3>Steve Lacy</h3>
+                    </a>
                 </div>
                 <div class="artist">
                     <a href=""><img src="static/img/eminem.jpg" alt="Artist 6">
-                    <h3>Eminem</h3></a>
+                        <h3>Eminem</h3>
+                    </a>
                 </div>
                 <div class="artist">
-                   <a href=""> <img src="static/img/Lil-Baby.jpg" alt="Artist 7">
-                    <h3>Lil Baby</h3></a>
+                    <a href=""> <img src="static/img/Lil-Baby.jpg" alt="Artist 7">
+                        <h3>Lil Baby</h3>
+                    </a>
                 </div>
                 <div class="artist">
                     <a href=""><img src="static/img/Lil-Tecca.jpg" alt="Artist 8">
-                    <h3>Lil Tecca</h3></a>
+                        <h3>Lil Tecca</h3>
+                    </a>
                 </div>
                 <div class="artist">
                     <a href=""><img src="static/img/Selena-Gomez.jpg" alt="Artist 9">
-                    <h3>Selena Gomez</h3></a>
+                        <h3>Selena Gomez</h3>
+                    </a>
                 </div>
             </div>
         </section>
@@ -82,17 +91,17 @@
                 <li><a href="#">Help & FAQ</a></li>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Refunds</a></li>
-               
+
             </ul>
-             <ul>
+            <ul>
                 <li><a href="#">Opening Hours </a></li>
-                
+
                 <li><a href="#">Mon-Fri</a></li>
                 <li><a href="#">from 8:00 - 17:00</a></li>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
             </ul>
-           
-           
+
+
             <ul>
                 <li><a href="#">Join Us</a></li>
                 <li><a href="#">Follow us on Socials</a></li>
@@ -101,10 +110,34 @@
             <div id="icons">
                 <a href="#"><i class="fab fa-twitter-square"></i></a>
                 <a href="https://www.instagram.com/centralcee/"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://www.youtube.com/channel/UCV_CsAy5CNBX_uwDQ7RMe1Q"><i
+                        class="fa-brands fa-square-youtube"></i></a>
             </div>
-    
-      
+
+
         </div>
     </footer>
+
 </body>
+<script>
+    (function (d) {
+        var config = {
+            kitId: 'kej3qre',
+            scriptTimeout: 3000,
+            async: true
+        },
+            h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+</script>
+<script>
+    (function (d) {
+        var config = {
+            kitId: 'kej3qre',
+            scriptTimeout: 3000,
+            async: true
+        },
+            h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+</script>
+
 </html>
